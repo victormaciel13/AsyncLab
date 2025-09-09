@@ -42,7 +42,7 @@ namespace MunProc
             string baseCsvPath = Path.Combine(dataRoot, "municipios_base.csv");
             string tempCsvPath = Path.Combine(dataRoot, "municipios_tmp.csv");
 
-            // =================== 1) Verificar base e baixar ===================
+            // =================== 1) Verificar base e baixar =================
             Console.WriteLine("== Verificação de arquivo base ==");
             if (!File.Exists(baseCsvPath))
             {
