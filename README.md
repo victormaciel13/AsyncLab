@@ -26,7 +26,5 @@ Tratamento automático de encoding (UTF-8 / Latin1).
 Ajustes de compatibilidade e correção de erros de compilação;  
   - 📊 O tempo de execução é maior na primeira execução, pois envolve o download da base completa e a geração de todos os arquivos por UF (CSV, JSON e BIN), além das operações de hashing e escrita em disco. Em execuções seguintes, quando não há alterações no CSV, o impacto é bem menor, já que apenas a comparação entre arquivos é realizada, resultando em processamento mais rápido.  
 
-### 🌐 Repositório
-[https://github.com/profvinicius84/AsyncLab](https://github.com/victormaciel13/AsyncLab)
 
 
